@@ -76,23 +76,58 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+	  
 	  <RunTimeMenu>
 		<MenuItem>
 			<GUID>dc6236b7-55f5-4ef6-9eaf-dc2c0709bf3e</GUID>
 			<Type>Action</Type>
 			<Execution>silent</Execution>
 			<Name>
-				<eng>Add a New Channel</eng>
-				<loc>Add a New Channel</loc>
+				<eng>Add a New Tx Channel</eng>
+				<loc>Add a New Tx Channel</loc>
 			</Name>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Add New Channel Menu.vi</Path>
+				<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Add Tx Channel Menu.vi</Path>
+			</Item2Launch>	
+		</MenuItem>
+		
+		<MenuItem>
+			<GUID>955775b7-4dc7-430c-951f-3b8dd84ce10d</GUID>
+			<Type>Action</Type>
+			<Execution>silent</Execution>
+			<Name>
+				<eng>Add a New Rx Channel</eng>
+				<loc>Add a New Rx Channel</loc>
+			</Name>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Add Rx Channel Menu.vi</Path>
 			</Item2Launch>	
 		</MenuItem>
 	  </RunTimeMenu>
+
     </Page>
-    
+	
+	 <Page>
+      <Name>
+        <eng>My Section</eng>
+        <loc>My Section</loc>
+      </Name>
+	  <ParentGUIDs>
+		<ParentGUID>51b5d3ac-e502-4eda-8223-78fc965f9b7d</ParentGUID>
+	  </ParentGUIDs>
+      <GUID>45b6d87e-bfe8-4830-8b44-4bcc0ff8ff26</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+	  </Glyph>
+	  <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+ 
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
