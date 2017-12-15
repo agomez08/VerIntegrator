@@ -5,7 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder"/>
+			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Input Channels Page.vi" Type="VI" URL="../Input Channels Page.vi"/>
+				<Item Name="Output Channels Page.vi" Type="VI" URL="../Output Channels Page.vi"/>
+			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>

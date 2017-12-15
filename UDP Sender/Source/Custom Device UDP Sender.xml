@@ -76,7 +76,25 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
-	  
+    </Page>
+	
+	 <Page>
+      <Name>
+        <eng>Output Channels</eng>
+        <loc>Output Channels</loc>
+      </Name>
+	  <ParentGUIDs>
+		<ParentGUID>51b5d3ac-e502-4eda-8223-78fc965f9b7d</ParentGUID>
+	  </ParentGUIDs>
+      <GUID>45b6d87e-bfe8-4830-8b44-4bcc0ff8ff26</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+	  </Glyph>
+	  <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Output Channels Page.vi</Path>
+      </Item2Launch>  
 	  <RunTimeMenu>
 		<MenuItem>
 			<GUID>dc6236b7-55f5-4ef6-9eaf-dc2c0709bf3e</GUID>
@@ -91,7 +109,27 @@
 				<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Add Tx Channel Menu.vi</Path>
 			</Item2Launch>	
 		</MenuItem>
-		
+		</RunTimeMenu>	
+    </Page>
+	
+	<Page>
+      <Name>
+        <eng>Input Channels</eng>
+        <loc>Input Channels</loc>
+      </Name>
+	  <ParentGUIDs>
+		<ParentGUID>51b5d3ac-e502-4eda-8223-78fc965f9b7d</ParentGUID>
+	  </ParentGUIDs>
+      <GUID>8dfa952c-5f96-4dda-9d3b-a3c168660078</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+	  </Glyph>
+	  <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Input Channels Page.vi</Path>
+      </Item2Launch>  
+	  <RunTimeMenu>		
 		<MenuItem>
 			<GUID>955775b7-4dc7-430c-951f-3b8dd84ce10d</GUID>
 			<Type>Action</Type>
@@ -105,27 +143,7 @@
 				<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Add Rx Channel Menu.vi</Path>
 			</Item2Launch>	
 		</MenuItem>
-	  </RunTimeMenu>
-
-    </Page>
-	
-	 <Page>
-      <Name>
-        <eng>My Section</eng>
-        <loc>My Section</loc>
-      </Name>
-	  <ParentGUIDs>
-		<ParentGUID>51b5d3ac-e502-4eda-8223-78fc965f9b7d</ParentGUID>
-	  </ParentGUIDs>
-      <GUID>45b6d87e-bfe8-4830-8b44-4bcc0ff8ff26</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-	  </Glyph>
-	  <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\UDP Sender\UDP Sender Configuration.llb\Main Page.vi</Path>
-      </Item2Launch>
+	  </RunTimeMenu>	
     </Page>
  
   </Pages>
